@@ -1,4 +1,8 @@
 Nomshare::Application.routes.draw do
+  resources :guests
+
+  resources :hosts
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

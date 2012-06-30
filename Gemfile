@@ -1,11 +1,20 @@
 source 'https://rubygems.org'
 
 gem 'rails', '3.2.6'
+gem "twitter-bootstrap-rails"
+gem 'therubyracer'
+gem 'execjs'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
-
+group :development do
 gem 'sqlite3'
+end
+
+group :producetion, :development do
+gem 'pg'
+end
+
 
 
 # Gems used only for assets and not required
