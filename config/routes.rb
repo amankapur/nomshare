@@ -3,6 +3,7 @@ Nomshare::Application.routes.draw do
 
   resources :hosts
 
+  root :to => 'splash#index'
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
