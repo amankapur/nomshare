@@ -12,14 +12,12 @@
   <% end %>
 
   <div class="field">
-    <%= f.label :email %><br />
-    <%= f.text_field :email %>
+    <%= f.text_field :email , placeholder:'Email...'%>
   </div>
   <div class="field">
-    <%= f.label :number_of_guests %><br />
-    <%= f.number_field :number_of_guests %>
+    <%= f.number_field :number_of_guests, placeholder:'How many guests would you like to host?' %>
   </div>
   <div class="actions">
-    <%= f.submit %>
+    <%= f.submit "JOIN US", class: "btn btn-large btn-info"%>
   </div>
 <% end %>
