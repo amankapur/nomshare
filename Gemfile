@@ -11,7 +11,7 @@ group :development do
 gem 'sqlite3'
 end
 
-group :producetion, :development do
+group :production, :development do
 gem 'pg'
 end
 
