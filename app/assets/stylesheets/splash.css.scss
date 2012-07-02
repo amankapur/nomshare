@@ -20,7 +20,18 @@ body{
 	 	margin-top: 0px auto;
 	   	width: 1000px;
 	   	text-align: center;
+		.social{
+			margin: 0px auto;
+			
+			.social_button {
+			 	float: left;	
+				width: 50px;
+				margin-top: 20px;
+				margin-left: 50px;
+			}
+		}
 }
+
 
 .hero-unit{
 		text-align:center;

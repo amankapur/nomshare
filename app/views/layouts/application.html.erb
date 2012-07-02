@@ -20,11 +20,28 @@
     </script>
   </head>
   <body>
-    <div class ="container">
-        <%= yield %>
-    </div>
-	<div class="photo-tag">
-	<a href="http://www.flickr.com/photos/emilygoodstein/5603923265/sizes/l/in/photostream/"> Photo URL </a>
+ <div class ="container">
+		<%= yield %>
+   <div class="social">
+		<div class="social_button">
+		<div class="fb-like" data-href="http://www.nomtogether.com" data-send="false" data-layout="button_count" data-show-faces="false"></div></div>
+
+<div class="social_button"><a href="https://twitter.com/share" class="twitter-share-button" data-text="This is awesome" data-url="http://www.nomtogether.com" data-via="NomTogether" data-lang="en">Tweet Us</a></div>
+		<div id="fb-root"></div>
+		<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+		<script>(function(d, s, id) {
+						var js, fjs = d.getElementsByTagName(s)[0];
+						if (d.getElementById(id)) return;
+						js = d.createElement(s); js.id = id;
+						js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=218625074865558";
+						fjs.parentNode.insertBefore(js, fjs);
+						}(document, 'script', 'facebook-jssdk'));</script>
+
 	</div>
-</body>
+	
+</div>
+	<div class="photo-tag">
+		<a href="http://www.flickr.com/photos/emilygoodstein/5603923265/sizes/l/in/photostream/"> Photo URL </a>
+	</div>
+	</body>
 </html>
