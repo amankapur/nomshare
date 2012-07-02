@@ -4,15 +4,16 @@ gem 'rails', '3.2.6'
 gem "twitter-bootstrap-rails"
 gem 'therubyracer'
 gem 'execjs'
+gem 'heroku'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 group :development do
-gem 'sqlite3'
+  gem 'sqlite3'
 end
 
-group :producetion, :development do
-gem 'pg'
+group :production, :development do
+  gem 'pg'
 end
 
 
