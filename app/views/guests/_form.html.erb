@@ -12,10 +12,9 @@
   <% end %>
 
   <div class="field">
-    <%= f.label :email %><br />
-    <%= f.text_field :email %>
+    <%= f.text_field :email , placeholder:'Email...' %>
   </div>
   <div class="actions">
-    <%= f.submit %>
+    <%= f.submit "JOIN US", class: "btn btn-large btn-info" %>
   </div>
 <% end %>
