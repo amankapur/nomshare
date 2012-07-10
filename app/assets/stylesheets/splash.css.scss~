@@ -58,7 +58,7 @@ font-family: 'Lobster Two', cursive;
 			
 			#logo {
 			
-				width: 70%;
+				width: 80%;
 			}
 }
 
