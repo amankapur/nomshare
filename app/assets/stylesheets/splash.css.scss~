@@ -28,7 +28,7 @@ font-family: 'Lobster Two', cursive;
 }
 .container{
 	 	margin-top: 0px auto;
-	   	width: 1000px;
+	 		width: 50%;
 	   	text-align: center;
 	  
 		.social{
@@ -76,7 +76,7 @@ color: white;
 
 }
 
-h1, h2, h3 {
+h1, h2, h3, p {
 	color: white;
 	}
 
