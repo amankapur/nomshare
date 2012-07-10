@@ -2,7 +2,7 @@
   <% if @guest.errors.any? %>
      
       <% @guest.errors.full_messages.each do |msg| %>
-        <h2><%= msg %></h2>
+        <h3><%= msg %></h3>
       <% end %>
       
   <% end %>

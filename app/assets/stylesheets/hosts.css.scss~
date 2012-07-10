@@ -11,4 +11,13 @@ input#host_email, input#host_number_of_guests, input#guest_email{
 
 }
 
+.errored input
+{
+ border: 1px solid red;
 
+}
+.validation-error
+{
+ color :#EF5931;
+ font-weight: bold;
+}

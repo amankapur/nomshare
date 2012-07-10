@@ -1,7 +1,7 @@
 <%= form_for(@host) do |f| %>
    <% if @host.errors.any? %>
      
-      <% @host.errors.full_messages.each do |msg| %>
+      <% @hostt.errors.full_messages.each do |msg| %>
         <h2><%= msg %></h2>
       <% end %>
       

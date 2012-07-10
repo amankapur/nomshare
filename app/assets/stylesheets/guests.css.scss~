@@ -2,4 +2,13 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+.errored input
+{
+ border: 1px solid red;
 
+}
+.validation-error
+{
+ color :#EF5931;
+ font-weight: bold;
+}
