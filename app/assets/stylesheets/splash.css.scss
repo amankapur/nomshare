@@ -13,7 +13,7 @@ font-weight: 200;
 }
 body{
 	padding-left: 0px;
-	overflow: hidden;
+	overflow-x: hidden;
 	position: absolute;
 	background-color: transparent;
 	width: 100%;
@@ -29,6 +29,7 @@ font-family: 'Lobster Two', cursive;
 .container{
 	 	margin-top: 0px auto;
 	 		width: 50%;
+	 		height: 50%;
 	   	text-align: center;
 	  
 		.social{
