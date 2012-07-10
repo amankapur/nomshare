@@ -3,7 +3,7 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 html { 
-background: url('background.jpg') no-repeat center center fixed; 
+background: url('background-comp.jpg') no-repeat center center fixed; 
 			-webkit-background-size: cover;
 			-moz-background-size: cover;
 			-o-background-size: cover;
@@ -25,6 +25,14 @@ font-family: 'Lobster Two', cursive;
 	 background: rgba(25, 25, 40, .5);
 	 margin: 0px auto;
 	 padding: 0px;
+	 
+	 h1, h2, h3, p {
+		color: white;
+		font-family: 'Lobster Two', cursive;
+		}
+		p{
+			font-size: 2.6em;
+		}
 }
 .container{
 	 	margin-top: 0px auto;

@@ -3,7 +3,7 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 input#host_email, input#host_number_of_guests, input#host_name,
-input#guest_email, input#guest_name{
+input#guest_email, input#guest_name, input#guest_desire{
 
 		font-size: 25px;
 		height: 50px;
@@ -12,5 +12,7 @@ input#guest_email, input#guest_name{
 	
 
 }
-
+h1, h2, h3, p {
+	color: white;
+	}
 
