@@ -1,7 +1,7 @@
 
 <img alt="Nom Together Logo" width="675" src="/assets/logo-white.png" />
 <div id="nom_text">
-<h1> NomTogether is your local	 place to host dinners for awesome people. Sign-up for to host a meal if you're a beast chef or be a guest at an if you simply love <i>noming</i> on home cooked meals. </h1>
+<h2> NomTogether is your local	 place to host dinners for awesome people. Sign-up for to host a meal if you're a beast chef or be a guest at an if you simply love <i>noming</i> on home cooked meals. </h2>
 </div>
 <div class="buttons">
 <%= link_to "Host it", {controller:'hosts', action:'new'}, method: 'get', class: 'btn btn-info btn-large' %>
