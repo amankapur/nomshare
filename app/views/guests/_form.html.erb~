@@ -2,11 +2,13 @@
   <% if @guest.errors.any? %>
      
       <% @guest.errors.full_messages.each do |msg| %>
-        <h3><%= msg %></h3>
+        <h2><%= msg %></h2>
       <% end %>
       
   <% end %>
-
+ <div class="field">
+    <%= f.text_field :name , placeholder:'Name...'%>
+  </div>
   <div class="field">
     <%= f.text_field :email , placeholder:'Email...' %>
   </div>

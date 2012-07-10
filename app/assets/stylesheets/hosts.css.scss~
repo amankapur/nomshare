@@ -2,11 +2,13 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-input#host_email, input#host_number_of_guests, input#guest_email{
+input#host_email, input#host_number_of_guests, input#host_name,
+input#guest_email, input#guest_name{
+
 		font-size: 25px;
 		height: 50px;
 		line-height: 25px;
-		width: 500px;
+		width: 70%;
 	
 
 }
